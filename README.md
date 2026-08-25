@@ -22,6 +22,9 @@
 
 O **RenanOS** redefine a experiência de navegação de um portfólio profissional. Em vez de uma página estática comum, o visitante interage com uma área de trabalho completa com janelas arrastáveis, sistema multitarefa, efeitos visuais retro-futuristas, terminal interativo e persistência de dados em nuvem.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02cbcee9-97fb-464e-b3ed-cc9e092e5f48" />
+
+
 ### ✨ Principais Funcionalidades
 
 - **🪟 Gerenciador de Janelas Completo**: Minimize, maximize, redimensione e sobreponha janelas com controle de foco e profundidade (Z-index).
