@@ -1,0 +1,6 @@
+{
+  "name": "RenanOS",
+  "description": "Sistema operacional simulado para o portfólio de Renan Mello (Full-Stack & Cyber Security)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

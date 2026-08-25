@@ -1,0 +1,92 @@
+{
+  "entities": {
+    "contacts": {
+      "title": "Contact Inquiries",
+      "description": "Messages and inquiries sent to Renan through the Sinal app",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Sender name or organization"
+        },
+        "email": {
+          "type": "string",
+          "description": "Sender email address"
+        },
+        "message": {
+          "type": "string",
+          "description": "Message content"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of creation"
+        }
+      },
+      "required": ["name", "email", "message", "createdAt"]
+    },
+    "notes": {
+      "title": "Ship Journal Notes",
+      "description": "Notes stored in the Diario app",
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Title of the note"
+        },
+        "body": {
+          "type": "string",
+          "description": "Content of the note"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of note creation"
+        }
+      },
+      "required": ["title", "body", "createdAt"]
+    },
+    "scores": {
+      "title": "Cyber Leaderboard Scores",
+      "description": "High scores from games like Typing Test, Snake, Memory, etc.",
+      "type": "object",
+      "properties": {
+        "game": {
+          "type": "string",
+          "description": "Identifier of the mini-game"
+        },
+        "playerName": {
+          "type": "string",
+          "description": "Player callsign"
+        },
+        "score": {
+          "type": "number",
+          "description": "Score achieved"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of record"
+        }
+      },
+      "required": ["game", "playerName", "score", "createdAt"]
+    }
+  },
+  "firestore": {
+    "contacts": {
+      "path": "contacts/{contactId}",
+      "definition": {
+        "$ref": "#/entities/contacts"
+      }
+    },
+    "notes": {
+      "path": "notes/{noteId}",
+      "definition": {
+        "$ref": "#/entities/notes"
+      }
+    },
+    "scores": {
+      "path": "scores/{scoreId}",
+      "definition": {
+        "$ref": "#/entities/scores"
+      }
+    }
+  }
+}

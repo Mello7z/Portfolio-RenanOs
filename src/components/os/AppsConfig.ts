@@ -1,0 +1,257 @@
+import type { AppId, AppMeta } from '../../types';
+
+export const APPS: Record<AppId, AppMeta> = {
+  dossie: {
+    id: 'dossie',
+    label: 'Dossiê',
+    title: 'Dossiê — Identidade Confidencial',
+    subtitle: 'Sobre Mim',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 720, height: 520 },
+  },
+  missoes: {
+    id: 'missoes',
+    label: 'Missões',
+    title: 'Missões — Registro de Operações',
+    subtitle: 'Projetos',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 800, height: 540 },
+  },
+  arsenal: {
+    id: 'arsenal',
+    label: 'Arsenal',
+    title: 'Arsenal — Equipamento Tático',
+    subtitle: 'Habilidades',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 720, height: 520 },
+  },
+  terminal: {
+    id: 'terminal',
+    label: 'Terminal',
+    title: 'Terminal Seguro — Cyber Ops',
+    subtitle: 'Shell',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 680, height: 460 },
+  },
+  sinal: {
+    id: 'sinal',
+    label: 'Sinal',
+    title: 'Sinal — Canal Criptografado',
+    subtitle: 'Contato',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 620, height: 540 },
+  },
+  trilha: {
+    id: 'trilha',
+    label: 'Trilha',
+    title: 'Trilha Sonora — Lofi Sessions',
+    subtitle: 'Player',
+    onDesktop: false,
+    inDock: true,
+    defaultSize: { width: 440, height: 520 },
+  },
+  registros: {
+    id: 'registros',
+    label: 'Registros',
+    title: 'Registros — Arquivo Visual',
+    subtitle: 'Galeria',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 740, height: 540 },
+  },
+  diario: {
+    id: 'diario',
+    label: 'Diário',
+    title: 'Diário de Bordo — Notas',
+    subtitle: 'Caderno',
+    onDesktop: false,
+    inDock: true,
+    defaultSize: { width: 520, height: 480 },
+  },
+  calendario: {
+    id: 'calendario',
+    label: 'Agenda',
+    title: 'Agenda de Operações',
+    subtitle: 'Calendário',
+    onDesktop: false,
+    inDock: true,
+    defaultSize: { width: 540, height: 480 },
+  },
+  arcade: {
+    id: 'arcade',
+    label: 'Arcade',
+    title: 'Arcade — Protocolo de Reflexos',
+    subtitle: 'Mini-game',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 560, height: 540 },
+  },
+  memoria: {
+    id: 'memoria',
+    label: 'Memória',
+    title: 'Jogo da Memória Hacker — CriptoCards',
+    subtitle: 'Mini-game',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 620, height: 560 },
+  },
+  bomba: {
+    id: 'bomba',
+    label: 'Campo Minado',
+    title: 'Campo Minado — Desarme de Bomba',
+    subtitle: 'Mini-game',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 540, height: 580 },
+  },
+  snake: {
+    id: 'snake',
+    label: 'Cobrinha',
+    title: 'Cobrinha Cyber — Neon Snake',
+    subtitle: 'Mini-game',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 520, height: 560 },
+  },
+  typing: {
+    id: 'typing',
+    label: 'Hack Speed',
+    title: 'Hack Speed — Teste de Velocidade Shell',
+    subtitle: 'Mini-game',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 620, height: 520 },
+  },
+  calc: {
+    id: 'calc',
+    label: 'Calculadora',
+    title: 'Calculadora Tática & Cripto',
+    subtitle: 'Utilitário',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 420, height: 520 },
+  },
+  browser: {
+    id: 'browser',
+    label: 'Navegador',
+    title: 'Navegador Cyber — DarkWeb Matrix',
+    subtitle: 'Navegador Web',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 780, height: 540 },
+  },
+  vault: {
+    id: 'vault',
+    label: 'Cofre',
+    title: 'Cofre Confidencial — Secret Vault',
+    subtitle: 'Arquivos Criptografados',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 680, height: 500 },
+  },
+  code: {
+    id: 'code',
+    label: 'Code Studio',
+    title: 'RenanCode — IDE de Programação JavaScript & Cyber Script',
+    subtitle: 'Editor de Código',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 820, height: 580 },
+  },
+  curriculo: {
+    id: 'curriculo',
+    label: 'Currículo CV',
+    title: 'Currículo Profissional — Renan Mello',
+    subtitle: 'CV Interativo & Editor TXT',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 800, height: 600 },
+  },
+  plano: {
+    id: 'plano',
+    label: 'Plano de Fundo',
+    title: 'Plano de Fundo — Personalização de Tela & Lockscreen',
+    subtitle: 'Wallpapers',
+    onDesktop: true,
+    inDock: true,
+    defaultSize: { width: 820, height: 580 },
+  },
+};
+
+export const APP_ORDER: AppId[] = [
+  'dossie',
+  'curriculo',
+  'missoes',
+  'arsenal',
+  'terminal',
+  'sinal',
+  'trilha',
+  'registros',
+  'plano',
+  'diario',
+  'calendario',
+  'arcade',
+  'memoria',
+  'bomba',
+  'snake',
+  'typing',
+  'calc',
+  'browser',
+  'vault',
+  'code',
+];
+
+export function getLocalizedApp(appId: AppId, lang: 'pt' | 'en' = 'pt'): AppMeta {
+  const base = APPS[appId];
+  if (!base) {
+    return {
+      id: appId,
+      label: appId,
+      title: appId,
+      subtitle: '',
+      onDesktop: true,
+      inDock: true,
+      defaultSize: { width: 600, height: 400 },
+    };
+  }
+  if (lang === 'pt') return base;
+
+  const enMeta: Partial<Record<AppId, Partial<AppMeta>>> = {
+    dossie: { label: 'Dossier', subtitle: 'About Me', title: 'Dossier — Confidential Profile' },
+    missoes: { label: 'Missions', subtitle: 'Projects', title: 'Missions — Operations Log & Portfolio' },
+    arsenal: { label: 'Arsenal', subtitle: 'Skills', title: 'Arsenal — Technical Gear & Stack' },
+    terminal: { label: 'Terminal', subtitle: 'Shell', title: 'Secure Terminal — Cyber Ops' },
+    sinal: { label: 'Signal', subtitle: 'Contact', title: 'Signal — Encrypted Direct Contact' },
+    trilha: { label: 'Soundtrack', subtitle: 'Audio Player', title: 'Soundtrack — Lofi Sessions' },
+    registros: { label: 'Records', subtitle: 'Gallery', title: 'Records — Visual Gallery' },
+    diario: { label: 'Journal', subtitle: 'Notes', title: 'Ship Journal — Notes' },
+    calendario: { label: 'Schedule', subtitle: 'Calendar', title: 'Operations Calendar' },
+    arcade: { label: 'Arcade', subtitle: 'Mini-game', title: 'Arcade — Reflex Protocol' },
+    memoria: { label: 'Memory', subtitle: 'Mini-game', title: 'Hacker Memory Game' },
+    bomba: { label: 'Minesweeper', subtitle: 'Mini-game', title: 'Minesweeper — Defuse Protocol' },
+    snake: { label: 'Snake', subtitle: 'Mini-game', title: 'Cyber Snake' },
+    typing: { label: 'Hack Speed', subtitle: 'Mini-game', title: 'Hack Speed — Typing Test' },
+    curriculo: { label: 'Resume', subtitle: 'PDF Resume', title: 'Curriculum Vitae — Renan Mello' },
+    browser: { label: 'Browser', subtitle: 'Cyber Web', title: 'Cyber Browser & Bank' },
+    calc: { label: 'Calculator', subtitle: 'Utility', title: 'Cyber Scientific Calculator' },
+    code: { label: 'Code Studio', subtitle: 'Web IDE', title: 'Code Studio — Web IDE' },
+    plano: { label: 'Wallpaper', subtitle: 'Customization', title: 'Wallpaper Gallery' },
+    vault: { label: 'Vault', subtitle: 'Security', title: 'Secret Vault — Confidential Storage' },
+  };
+
+  const override = enMeta[appId];
+  return override ? { ...base, ...override } : base;
+}
+
+export function getLocalizedApps(lang: 'pt' | 'en' = 'pt'): Record<AppId, AppMeta> {
+  const result = {} as Record<AppId, AppMeta>;
+  for (const key of Object.keys(APPS) as AppId[]) {
+    result[key] = getLocalizedApp(key, lang);
+  }
+  return result;
+}
