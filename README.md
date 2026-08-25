@@ -12,7 +12,7 @@
 
 **Um portfólio moderno para desenvolvedores concebido como um Sistema Operacional Cyberpunk / Tático completo, responsivo e em tempo real.**
 
-[Acessar Live Demo](https://ais-pre-22smnqyltcerwjv4tnbq4c-98527099169.us-west1.run.app) · [Reportar Bug](https://github.com/Mello7z/renan-os/issues) · [Solicitar Feature](https://github.com/Mello7z/renan-os/issues)
+[Acessar Live Demo](https://renan-os-portfolio.web.app/) · [Reportar Bug](https://github.com/Mello7z/renan-os/issues) · [Solicitar Feature](https://github.com/Mello7z/renan-os/issues)
 
 </div>
 
